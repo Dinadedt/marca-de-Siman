@@ -1,0 +1,181 @@
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}
+
+
+body { 
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+header {
+    background-color: #A93439;
+    color: #FFFFFF;
+    padding: 1em ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3.8em;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+main {
+    padding: 2em;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+}
+section {
+    margin-bottom: 2em;
+}
+.promociones{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.promo{
+    display: flex;
+    flex-direction: column;
+    padding: 50px ;
+    justify-content: safe center;   
+}
+.eventos{
+     justify-content: safe center;   
+}
+
+.promo img{
+    max-width: 230px;
+    height: auto;
+}
+
+.precio-promocion{
+    color: #D32F2F;
+    font-weight: bold;
+}
+
+.precio-promocion span{
+    font-size: 20px;
+}
+
+.cuotas{
+    border: 1px solid rgb(12, 57, 140);
+    background-color: rgb(12, 57, 140);
+    color: #FFFFFF;
+    font-weight: bolder;
+    padding: 0px 5px;
+    border-radius: 20px;
+
+}
+
+.promo-text{
+    margin: 5px 0;
+}
+
+.promo, .evento {
+    background-color: #FFFFFF;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+form input, form button {
+    padding: 0.75em;
+    border: 1px solid #D32F2F;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #D32F2F;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #424242;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#eventos {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.eventos h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.evento {
+    display: flex;
+    align-items: center;
+  
+
+}
+
+.evento img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.evento p {
+    max-width: 600px;
+    margin: 10px 20px;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    text-align: justify;
+}
+.suscrip{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.suscrip form {
+    border: 2px solid #A93439;
+    padding: 3rem;
+    border-radius: 23px;
+    background-color: #f5f0f0;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
